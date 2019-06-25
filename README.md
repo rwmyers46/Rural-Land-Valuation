@@ -1,5 +1,4 @@
-## Russell W. Myers
-### Image Processing for Machine Learning:
+## Image Processing for Machine Learning:
 
 1000s of images are required to train a robust neural network. However, redundant images do not improve the model and contribute to overfitting. Further, a single null image file may cause the build to abort with errors after several epochs of fitting. Thus, ensuring images are unique, uncorrupted, and adhere to expected file formats is imperative.
 
