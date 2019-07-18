@@ -5,7 +5,7 @@ Rural land is a notoriously difficult asset to price. The relatively low transac
 <p align="center">
 <img src="https://github.com/rwmyers46/Rural-Land-Valuation/blob/master/images/horses.jpg" width="500" height="300"/>
 </p>
-
+Photo by Christine Mendoza on Unsplash
 ### Process:
 
 In order to control for geographic and legislative variation, such as topography, climate, and taxes, the sample set was chosen from a region of a contiguous counties comprising the Blacksland North Texas Region. Data was sourced from landoftexas.com property listings and processed using Beautiful Soup and Selenium. Only previously sold properties were included so that all data provides an accurate representation of market value.
