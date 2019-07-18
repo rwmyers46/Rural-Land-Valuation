@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://github.com/rwmyers46/Rural-Land-Valuation/blob/master/images/horses.jpg" width="325" height="400"/>
+<img src="https://github.com/rwmyers46/Rural-Land-Valuation/blob/master/images/horses.jpg" width="500" height="300"/>
 </p>
 
 ## Rural Land Valuation:
