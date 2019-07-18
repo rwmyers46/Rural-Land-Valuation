@@ -1,3 +1,5 @@
+![alt text](images/horses.jpg)
+
 ## Rural Land Valuation:
 
 Rural land is a notoriously difficult asset to price. The relatively low transaction volume coupled with nebulous land features create a market with few similarly comparable properties. This project focused on quantifying land features in order to improve accuracy for investment decisions.
