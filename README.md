@@ -1,4 +1,6 @@
-![alt text](images/horses.jpg)
+<p align="center">
+<img src="https://github.com/rwmyers46/Rural-Land-Valuation/blob/master/images/horses.jpg" width="325" height="400"/>
+</p>
 
 ## Rural Land Valuation:
 
