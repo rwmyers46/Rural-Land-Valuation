@@ -5,6 +5,8 @@ Rural land is a notoriously difficult asset to price. The relatively low transac
 <p align="center">
 <img src="https://github.com/rwmyers46/Rural-Land-Valuation/blob/master/images/horses.jpg" width="500" height="300"/>
 </p>
+<p style="text-align: center;">Centered text</p>
+<figcaption>AWS Rekognition</figcaption>
 
 ###### *Photo by Christine Mendoza on Unsplash*
 
