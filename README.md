@@ -16,7 +16,7 @@ In order to control for geographic and legislative variation, such as topography
 <img src="https://github.com/rwmyers46/Rural-Land-Valuation/blob/master/images/blacklands_region.png" width="500" height="300"/>
 </p>
 
-# Text Processing:
+### Text Processing:
 
 Text processing comprised a two-step procedure, one for structured and another for unstructued data. Structured property listing features with associated HMTL tags, such as "size" or "price" were stripped and saved to **Numpy** arrays and unstructured text from a listing's Property Desciption section were processed with the `featureCounts` function. The data were then combined into a dataframe with the `ArrayMaker` function.
 
