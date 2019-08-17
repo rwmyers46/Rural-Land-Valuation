@@ -30,7 +30,7 @@ Text processing was a bifurcated flow, with branches for structured and unstruct
 
 Next to water features, elevation is perhaps the region's most sought after land feature. Properties with higher elevations are more likely to provide vistas for home sites, varied topography, and better drainage for agriculture.
 
-To find property elevation, Google Maps API was employed. The `GCP_Features` function from the `Add_GIS_Features` utility file takes a dataframe argument and returns a dataframe with elevation and driving time from the nearest CBD of Dallas. For each address `GCP_Features` calls the `get_GIS` function, which first uses the Google Maps Geocode API to get the latitude & longitude for a property address, and then sends these values back to Google Maps Elevation API to fetch the elevation.
+To find property elevation, the **GCP** Google Map's API was employed. The `GCP_Features` function from the `Add_GIS_Features` utility file takes a dataframe argument and returns a dataframe with elevation and driving time from the nearest CBD of Dallas. For each address `GCP_Features` calls the `get_GIS` function, which first uses the Google Maps Geocode API to get the latitude & longitude for a property address, and then sends these values back to Google Maps Elevation API to fetch the elevation.
 
 ### Model:
 
@@ -45,6 +45,16 @@ The following model regression model classes were evaluated with cross validatio
 * Multilayer Perception
 * Polynomial
 * Elastic Net|
+
+Lasso, Ridge, and Simple Linear Regression demonstrated the best results in initial testing. These classes were then optimized with RidgeCV & LassoCV across a range of Alpha values and visualized with Yellowbrick.
+
+<p align="center">
+  <img src="https://github.com/rwmyers46/Rural-Land-Valuation/blob/master/visualizations/CV_scores.png"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/rwmyers46/Rural-Land-Valuation/blob/master/visualizations/alpha_selection.png"/>
+</p>
 
 Simple Linear Regression produced the best results with an R^2 of 25.34%. The lower coefficient of determination most likely resulted from property description inaccuracy and variance. But although most variance is unexplained, the feature impact on valuation is consistent with domain knowledge:
 
