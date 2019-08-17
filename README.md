@@ -44,17 +44,17 @@ The following model regression model classes were evaluated with cross validatio
 * K-Nearest Neighbors
 * Multilayer Perception
 * Polynomial
-* Elastic Net
-
-<p align="center">
-  <img src="https://github.com/rwmyers46/Rural-Land-Valuation/blob/master/visualizations/feature_impacts.png"/>
-</p>
+* Elastic Net|
 
 Simple Linear Regression produced the best results with an R^2 of 25.34%. The lower coefficient of determination most likely resulted from property description inaccuracy and variance. But although most variance is unexplained, the feature impact on valuation is consistent with domain knowledge:
 
 * Water features uniformly showed the greatest premium of `$100 - $250` per acre
 * Bosque & McClellan county are considered the region's two most desirable counties
 * Agricultural features such as *barn* & *cattle*, which suggest flatter, more open land were discounted accordingly
+
+<p align="center">
+  <img src="https://github.com/rwmyers46/Rural-Land-Valuation/blob/master/visualizations/feature_impacts.png"/>
+</p>
 
 ### Assumptions & Error Sources:
 
