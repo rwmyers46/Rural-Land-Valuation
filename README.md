@@ -46,7 +46,7 @@ The following model regression model classes were evaluated with cross validatio
 * Polynomial
 * Elastic Net|
 
-Lasso, Ridge, and Simple Linear Regression demonstrated the best results in initial testing. These classes were then optimized with RidgeCV & LassoCV across a range of Alpha values and visualized with Yellowbrick.
+Lasso, Ridge, and Simple Linear Regression demonstrated the best results in initial testing. These classes were optimized with RidgeCV & LassoCV across a range of Alpha values and visualized with Yellowbrick.
 
 <p align="center">
   <img src="https://github.com/rwmyers46/Rural-Land-Valuation/blob/master/visualizations/CV_scores.png"/>
@@ -54,6 +54,12 @@ Lasso, Ridge, and Simple Linear Regression demonstrated the best results in init
 
 <p align="center">
   <img src="https://github.com/rwmyers46/Rural-Land-Valuation/blob/master/visualizations/alpha_selection.png"/>
+</p>
+
+To determine whether a higher order polynomial would yield better accuracy, a learning curve was plotted for degrees 0 to 5. In this test, the best R^2 occurred at n = 1.
+
+<p align="center">
+  <img src="https://github.com/rwmyers46/Rural-Land-Valuation/blob/master/visualizations/polydegs.png"/>
 </p>
 
 Simple Linear Regression produced the best results with an R^2 of 25.34%. The lower coefficient of determination most likely resulted from property description inaccuracy and variance. But although most variance is unexplained, the feature impact on valuation is consistent with domain knowledge:
