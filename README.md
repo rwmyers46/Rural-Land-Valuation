@@ -3,14 +3,20 @@
 Rural land is a notoriously difficult asset to price. The relatively low transaction volume coupled with nebulous land features create a market with few similarly comparable properties. This project focused on quantifying land features in order to improve accuracy for investment decisions.
 
 <p align="center">
-<img src="https://github.com/rwmyers46/Rural-Land-Valuation/blob/master/images/horses.jpg" width="500" height="300"/>
+  <img src="https://github.com/rwmyers46/Rural-Land-Valuation/blob/master/images/horses.jpg" width="500" height="300"/>
 </p>
+<p align="center"><h6>
+  Photo by Christine Mendoza on Unsplash
+</h6></p>
 
-###### *Photo by Christine Mendoza on Unsplash*
 
 ### Data Collection:
 
 In order to control for geographic and legislative variation, such as topography, climate, and taxes, the sample set was chosen from a region of contiguous counties comprising the Blacklands North Texas Region. Data was sourced from [landoftexas.com](https://www.landsoftexas.com/) property listings and processed using **Beautiful Soup** and **Selenium**. In order to ensure that the data accurately represented market value, the dataset only included transacted properties.
+
+<p align="center">
+  Blackland North Texas Region
+</p>
 
 <p align="center">
 <img src="https://github.com/rwmyers46/Rural-Land-Valuation/blob/master/images/blacklands_region.png" width="500" height="300"/>
