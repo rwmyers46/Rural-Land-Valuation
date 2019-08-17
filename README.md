@@ -15,7 +15,7 @@ Rural land is a notoriously difficult asset to price. The relatively low transac
 In order to control for geographic and legislative variation, such as topography, climate, and taxes, the sample set was chosen from a region of contiguous counties comprising the Blacklands North Texas Region. Data was sourced from [landoftexas.com](https://www.landsoftexas.com/) property listings and processed using **Beautiful Soup** and **Selenium**. In order to ensure that the data accurately represented market value, the dataset only included transacted properties.
 
 <p align="center">
-  Blackland North Texas Region
+  <b>Blacklands North Texas Region</b>
 </p>
 
 <p align="center">
@@ -45,6 +45,8 @@ The following model regression model classes were evaluated with cross validatio
 * Multilayer Perception
 * Polynomial
 * Elastic Net
+
+
 
 Simple Linear Regression produced the best results with an R^2 of 25.34%. The lower coefficient of determination most likely resulted from property description inaccuracy and variance. But although most variance is unexplained, the feature impact on valuation is consistent with domain knowledge:
 
