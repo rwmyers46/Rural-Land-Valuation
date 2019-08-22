@@ -100,4 +100,4 @@ Ultimately, it proved difficult to beat Simple Linear Regression. Even the best 
 
 2. GIS - Results could also be improved using more advanced GIS processing - not only to extract property features consistently across listings, but also to collect numerical measurements of said features: water feature size, wooded to open land ratio, and presence of high voltate transmission lines.
 
-3. Curb Appeal - A lot can be gleaned from a property's front gate. Fence condition, visible trash, and grandness of an entrace all impact valuation and are accessible from Google's Street View API and could used to train a neural net. 
+3. Curb Appeal - A lot can be gleaned from a property's front gate. Features accessible from Google's Street View API, such as fence condition, grandness of an entrace, and visible trash, all impact valuation and this imagery can be used to train a neural network. 
