@@ -30,7 +30,7 @@ Text processing was a bifurcated flow, with branches for structured and unstruct
 
 Next to water features, elevation is perhaps the region's most sought after land feature. Properties with higher elevations are more likely to provide vistas for home sites, varied topography, and better drainage for agriculture. The **Google Cloud Platform** has several using APIs for basic **Geographic Information System** (GIS) processing.
 
-To find property elevation, the **Google Cloud Platform** Google Maps API was employed. The `GCP_Features` function from the `Add_GIS_Features` utility file takes a dataframe argument and returns a dataframe with elevation and driving time from the nearest major metropolis of Dallas. For each address `GCP_Features` calls the `get_GIS` function, which first uses the Google Maps Geocode API to get the latitude & longitude for a property address, and then sends these values back to Google Maps Elevation API to fetch the elevation.
+To find property elevation, the Google Maps API was employed. The `GCP_Features` function from the `Add_GIS_Features` utility file takes a dataframe argument and returns a dataframe with elevation and driving time from the nearest major metropolis of Dallas. For each address `GCP_Features` calls the `get_GIS` function, which first uses the Google Maps Geocode API to get the latitude & longitude for a property address, and then sends these values back to Google Maps Elevation API to fetch the elevation.
 
 ### Model:
 
