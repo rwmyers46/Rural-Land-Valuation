@@ -80,5 +80,24 @@ A property listing's data majority was in the Description section. This results 
 * Topography feature mentions proportional to reality
 * Mineral right ownership claims accurate
 
+### Results:
 
+Ultimately, it proved difficult to beat Simple Linear Regression. Even the best models were unable to best a 30% coefficient of determination, largely resulting from property description inaccuracy and variance. But although the models do not account for 70% of the variance, the feature impact on valuation is consistent with domain knowledge:
 
+* Water features uniformly showed the greatest premium of $100 to $250 per acre
+* Bosque & McClellan county are considered the regions best counties
+* Agricultural features such as Barn & Cattle suggest land that is flat and open and were discounted accordingly
+
+##### Surprises:
+
+1. Oil & gas rights ownership ("minerals") negatively impacted valuations. Since mineral rights are an asset sellers prefer to retain, this finding would only make sense *if* it could be demonstrated that brokers advertise minerals to increase the appeal of less desirable land. Note: oil has not been discovered in the region.
+
+2. Properties with a greater travel time from the Dallas CBD were generally priced higher. This relationship may be due to the desire for privacy and quiet. One tradeoff for a more remote property, absent of highway noise, is a less-navigable ingress. In the country, this usually entails a single-lane, unpaved road safe only at lower speeds.
+
+##### Future Work:
+
+1. Data - Collecting more data would have been the simplest way to improve model accuracy, but the source site changed design mid-project, making this untenable within the given timeline. 
+
+2. GIS - Results could also be improved using more advanced GIS processing - not only to extract property features consistently across listings, but also to collect numerical measurements of said features: water feature size, wooded to open land ratio, and presence of high voltate transmission lines.
+
+3. Curb Appeal - A lot can be gleaned from a property's front gate. Fence condition, visible trash, and grandness of an entrace all impact valuation and are accessible from Google's Street View API and could used to train a neural net. 
